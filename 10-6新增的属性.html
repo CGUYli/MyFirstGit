@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新增的属性</title>
+</head>
+
+<body>
+	<!--placeholder属性-->
+	<label>
+    	text:<input type="text" placeholder="write me">
+    </label>
+    <hr>
+    <!--autocomplete属性-->
+    <input type="text" name="mr" autocomplete="on" list="mrs"/>
+    <hr>
+    <!--autofocus属性-->
+    <input type="text" autofocus="autofocus">
+    <hr>
+    <!--list属性   只有Opera10浏览器支持list属性-->
+    text:<input type="text" name="mr" list="mr">
+    <!--使用style=“display：none”将detailist元素设定为不显示-->
+    <datalist id="greetings" style="display:none;">
+    	<option value="明日科技">明日科技</option>
+        <option value="欢迎你">欢迎你</option>
+        <option value="你好">你好</option>
+    </datalist>
+    <hr>
+    <!--min和max属性-->
+    <input id="confidence" name="mr" type="range" min="0" max="100" value="0">
+    <hr>
+    <!--step属性-->
+    <input id="confidence" name="mr" type="range" min="0" max="100" step="5" value="0">
+    <hr>
+    <!--required属性-->
+    <input type="text" id="firstname" name="mr" required="required">
+</body>
+</html>
